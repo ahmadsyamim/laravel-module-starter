@@ -40,7 +40,7 @@
     },
     "scripts": {
         "post-autoload-dump": [
-            "@php artisan admin:install --env=example --dumpautoload",
+            "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi"
         ],
