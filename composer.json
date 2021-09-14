@@ -13,7 +13,7 @@
         "laravel/framework": "^8.54",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
-        "nwidart/laravel-modules": "^8.2",
+        "nwidart/laravel-modules": "dev-master",
         "orangehill/iseed": "^3.0",
         "wikimedia/composer-merge-plugin": "^2.0"
     },
@@ -83,6 +83,12 @@
         "preferred-install": "dist",
         "sort-packages": true
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/ahmadsyamim/laravel-modules.git"
+        }
+    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
