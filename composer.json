@@ -44,7 +44,7 @@
             "@php -r \"file_exists('database/database.sqlite') || file_put_contents('database/database.sqlite', '');\"",
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi",
-            "@php artisan vendor:publish --provider=Modules\\Admin\\Providers\\AdminServiceProvider",
+            "@php artisan vendor:publish --provider=Modules\\Admin\\Providers\\AdminServiceProvider"
         ],
         "post-update-cmd": [
             "@php artisan vendor:publish --tag=laravel-assets --ansi"
