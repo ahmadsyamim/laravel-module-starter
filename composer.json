@@ -7,13 +7,13 @@
     "require": {
         "php": "^7.3|^8.0",
         "ahmadsyamim/admin-module": "dev-master",
+        "ahmadsyamim/laravel-modules": "^8.2",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "6.5.x-dev",
         "joshbrw/laravel-module-installer": "^2.0",
         "laravel/framework": "^8.54",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
-        "nwidart/laravel-modules": "dev-master",
         "orangehill/iseed": "^3.0",
         "wikimedia/composer-merge-plugin": "^2.0"
     },
@@ -84,12 +84,6 @@
         "preferred-install": "dist",
         "sort-packages": true
     },
-    "repositories": [
-        {
-            "type": "git",
-            "url": "https://github.com/ahmadsyamim/laravel-modules.git"
-        }
-    ],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
