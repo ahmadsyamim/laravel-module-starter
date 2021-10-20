@@ -7,7 +7,7 @@
     "require": {
         "php": "^7.3|^8.0",
         "ahmadsyamim/admin-module": "dev-master",
-        "ahmadsyamim/laravel-modules": "^8.2",
+        "ahmadsyamim/laravel-modules": "dev-master",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "6.5.x-dev",
         "joshbrw/laravel-module-installer": "^2.0",
